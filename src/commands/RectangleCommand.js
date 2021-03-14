@@ -7,7 +7,7 @@ export default class RectangleCommand {
             throw new Error(`${logCmd} expected. Invalid rectangle command`);
         }
         const params = str.split(' ').splice(1);
-        console.log(params);
+        // console.log(params);
         if(params.length !== 4) {
             throw new Error(`${logCmd} expected 4 args, received ${params.length}`);
         }

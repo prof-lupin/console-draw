@@ -7,7 +7,7 @@ export default class CanvasCommand {
             throw new Error(`${logCmd} expected. Invalid canvas command`);
         }
         const params = str.split(' ').splice(1);
-        console.log(params);
+        // console.log(params);
         if(params.length !== 2) {
             throw new Error(`${logCmd} expected 2 args, received ${params.length}`);
         }

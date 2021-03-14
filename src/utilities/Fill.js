@@ -22,7 +22,7 @@ export default class Fill {
     }
 
     paint = (pixels) => {
-        pixels = pixels.slice(0);
+        // pixels = pixels.slice(0);
         this.fillSpace(pixels, this.x, this.y, ' ', this.c);
         return pixels;
     }

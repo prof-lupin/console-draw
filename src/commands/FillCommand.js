@@ -7,7 +7,7 @@ export default class FillCommand {
             throw new Error(`${logCmd} expected. Invalid fill command`);
         }
         const params = str.split(' ').splice(1);
-        console.log(params);
+        // console.log(params);
         if(params.length !== 3) {
             throw new Error(`${logCmd} expected 3 args, received ${params.length}`);
         }
