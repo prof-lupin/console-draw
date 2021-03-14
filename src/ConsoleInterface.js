@@ -43,8 +43,11 @@ export default class ConsoleInterface {
     }
 
     render() {
+        let i=0
         for(let y=0; y<this.canvas.height; y+=1) {
+            i++;
             for(let x=0; x<this.canvas.width; x+=1) {
+                i++;
                 let pixel = (x === 0 || y ===0) ? this.canvas.renderAt(x, y) : null;
 
                 const line = this.pixels[x];
@@ -68,5 +71,6 @@ export default class ConsoleInterface {
             }
             this.rl.write('\n');
         }
+        console.log(i);
     }
 }
