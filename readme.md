@@ -26,21 +26,25 @@ Q               Quit the program.
 enter command:
 C 20 6
 ```
+![canvas](https://github.com/prof-lupin/console-draw/blob/master/screenshots/Screenshot%202021-03-15%20at%203.10.38%20AM.png)
 
 ```
 enter command:
 L 2 4 6 4
 ```
+![line](https://github.com/prof-lupin/console-draw/blob/master/screenshots/Screenshot%202021-03-15%20at%203.10.58%20AM.png)
 
 ```
 enter command:
 R 8 2 10 4
 ```
+![rect](https://github.com/prof-lupin/console-draw/blob/master/screenshots/Screenshot%202021-03-15%20at%203.11.14%20AM.png)
 
 ```
 enter command:
 B 13 5 c
 ```
+![fill](https://github.com/prof-lupin/console-draw/blob/master/screenshots/Screenshot%202021-03-15%20at%203.11.24%20AM.png)
 
 ```
 enter command:
