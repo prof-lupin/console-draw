@@ -34,7 +34,7 @@ function run() {
                 if(shape.renderAt) {
                     intf = intf.addShape(shape);
                     // console.log('before render');
-                    intf.render();
+                    intf.render(shape);
                     // console.log('after render');
                     io.write('\n');
                     console.log('Enter Command:')
