@@ -5,6 +5,7 @@ export default class Rectangle {
                 throw new Error('Provided coordinate values must be positive integers');
             }
         });
+        if(x1===x2 || y1===y2) throw new Error('Invalid arguments for rectangle, try Line instead.');
         this.x1 = x1;
         this.x2 = x2;
         this.y1 = y1;

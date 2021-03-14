@@ -24,7 +24,7 @@ export default class CommandFactory {
             case 'B':
                 return new FillCommand(str);
             default:
-                return null;
+                throw new Error('Command not recognized');
         }
     }
 }
