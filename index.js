@@ -33,9 +33,9 @@ function run() {
                 const shape = commandType.execute();
                 if(shape.renderAt) {
                     intf = intf.addShape(shape);
-                    // console.log('before render');
-                    intf.render(shape);
-                    // console.log('after render');
+                    console.log('before render');
+                    intf.render();
+                    console.log('after render');
                     io.write('\n');
                     console.log('Enter Command:')
                 }
