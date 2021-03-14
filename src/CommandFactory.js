@@ -1,4 +1,5 @@
 import CanvasCommand from './commands/CanvasCommand.js';
+import QuitCommand from './commands/QuitCommand.js';
 
 export default class CommandFactory {
     static resolveCommand(str) {
@@ -8,6 +9,8 @@ export default class CommandFactory {
         switch(str[0]) {
             case 'C':
                 return new CanvasCommand(str);
+            case 'Q':
+                return new QuitCommand();
             default:
                 return null;
         }
