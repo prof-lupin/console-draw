@@ -11,7 +11,7 @@ export default class ConsoleInterface {
     addShape(shp) {
         this.restrictShapeInsideCanvas(shp);
         const layout = Object.assign(new ConsoleInterface(), this);
-        console.log('hello from addshape');
+        // console.log('hello from addshape');
         if(shp instanceof Canvas) {
             // console.log('hello from addshape');
             layout.canvas = shp;
@@ -19,7 +19,7 @@ export default class ConsoleInterface {
             layout.pixels = [];
         }
         else if(shp instanceof Fill) {
-            console.log('in addshape fill');
+            // console.log('in addshape fill');
             layout.pixels = shp.paint(layout.pixels);
         }
         else if(shp.renderAt) {

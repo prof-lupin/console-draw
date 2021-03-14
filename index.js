@@ -33,9 +33,9 @@ function run() {
                 const shape = commandType.execute();
                 if(shape.renderAt) {
                     intf = intf.addShape(shape);
-                    console.log('before render');
+                    // console.log('before render');
                     intf.render();
-                    console.log('after render');
+                    // console.log('after render');
                     io.write('\n');
                     console.log('Enter Command:')
                 }
@@ -44,7 +44,7 @@ function run() {
     });
 
     pauseReadline(() => {
-        io.write('\n\n You can start drawing now.\n\n');
+        io.write('\n\n Paint Board is online, have fun!\n\n');
         console.log('Enter Command: ');
     })
 }

@@ -47,7 +47,7 @@ export default class Fill {
 
     paintPxAt = (pixels, x, y, currColor, targetColor, currPxArr) => {
         const nextPx = pixels.length > x && pixels[x].length > y && pixels[x][y];
-        console.log(nextPx);
+        // console.log(nextPx);
         if(nextPx === currColor) {
             pixels[x][y] = targetColor;
             currPxArr.push({
