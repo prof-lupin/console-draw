@@ -1,11 +1,12 @@
 # Console Drawing Program
 
-A JavaScript program that lets the users draw a limited number of shapes/figures on their console by taking a pre-defined set of commands as input.
+A JavaScript program that lets the users draw a limited number of shapes/figures on their console by taking a pre-defined set of commands as input. The codebase follows the Factory pattern to resolve and sbstract the creation of the command objects.
 
 ### Rules
 
 ```
 Command 		Description
+
 C w h           Should create a new canvas of width w and height h.
 
 L x1 y1 x2 y2   Should create a new line from (x1,y1) to (x2,y2). Currently, only supports 
