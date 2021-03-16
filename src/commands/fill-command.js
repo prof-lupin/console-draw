@@ -1,4 +1,4 @@
-import Fill from "../utilities/Fill.js";
+import Fill from "../tools/fill-tool.js";
 
 export default class FillCommand {
     constructor(str) {

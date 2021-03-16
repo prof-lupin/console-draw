@@ -1,5 +1,5 @@
-import Canvas from './shapes/Canvas.js';
-import Fill from './utilities/Fill.js';
+import Canvas from './shapes/canvas.js';
+import Fill from './tools/fill-tool.js';
 
 export default class ConsoleInterface {
     constructor(intrfce) {

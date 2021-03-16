@@ -1,4 +1,4 @@
-import Canvas from '../shapes/Canvas.js';
+import Canvas from '../shapes/canvas.js';
 
 export default class CanvasCommand {
     constructor(str) {

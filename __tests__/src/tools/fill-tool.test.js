@@ -1,4 +1,4 @@
-import Fill from '../../../src/utilities/Fill.js';
+import Fill from '../../../src/tools/fill-tool.js';
 
 test('should fill the space with the provided color', () => {
     const pixels = [

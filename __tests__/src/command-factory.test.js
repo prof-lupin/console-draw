@@ -1,7 +1,7 @@
-import CommandFactory from '../../src/CommandFactory.js'
-import CanvasCommand from '../../src/commands/CanvasCommand.js';
-import LineCommand from '../../src/commands/LineCommand.js';
-import RectangleCommand from '../../src/commands/RectangleCommand.js';
+import CommandFactory from '../../src/command-factory.js'
+import CanvasCommand from '../../src/commands/canvas-command.js';
+import LineCommand from '../../src/commands/line-command.js';
+import RectangleCommand from '../../src/commands/rectangle-command.js';
 
 let commandType;
 

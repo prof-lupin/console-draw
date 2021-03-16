@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import {createInterface} from 'readline';
-import CommandFactory from './src/CommandFactory.js';
-import ConsoleInterface from './src/ConsoleInterface.js';
+import CommandFactory from './src/command-factory.js';
+import ConsoleInterface from './src/console-interface.js';
 
 function run() {
     let pauseInput = false;

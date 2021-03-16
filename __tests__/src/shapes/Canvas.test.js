@@ -1,4 +1,4 @@
-import Canvas from '../../../src/shapes/Canvas.js';
+import Canvas from '../../../src/shapes/canvas.js';
 
 const width = 4;
 const height = 5;

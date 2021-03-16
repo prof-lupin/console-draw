@@ -1,8 +1,8 @@
-import CanvasCommand from './commands/CanvasCommand.js';
-import FillCommand from './commands/FillCommand.js';
-import LineCommand from './commands/LineCommand.js';
-import QuitCommand from './commands/QuitCommand.js';
-import RectangleCommand from './commands/RectangleCommand.js';
+import CanvasCommand from './commands/canvas-command.js';
+import FillCommand from './commands/fill-command.js';
+import LineCommand from './commands/line-command.js';
+import QuitCommand from './commands/quit-command.js';
+import RectangleCommand from './commands/rectangle-command.js';
 
 export default class CommandFactory {
     static resolveCommand(str) {

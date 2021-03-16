@@ -1,4 +1,4 @@
-import Line from '../shapes/Line.js';
+import Line from '../shapes/line.js';
 
 export default class LineCommand {
     constructor(str) {

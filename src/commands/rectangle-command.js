@@ -1,4 +1,4 @@
-import Rectangle from '../shapes/Rectangle.js';
+import Rectangle from '../shapes/rectangle.js';
 
 export default class RectangleCommand {
     constructor(str) {

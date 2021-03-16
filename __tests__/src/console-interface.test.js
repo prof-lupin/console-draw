@@ -1,6 +1,6 @@
-import ConsoleInterface from '../../src/ConsoleInterface.js';
-import Canvas from '../../src/shapes/Canvas.js';
-import Line from '../../src/shapes/Line.js';
+import ConsoleInterface from '../../src/console-interface.js';
+import Canvas from '../../src/shapes/canvas.js';
+import Line from '../../src/shapes/line.js';
 
 let intrfce;
 let testInterface;
