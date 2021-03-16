@@ -5,7 +5,7 @@ export default class Rectangle {
                 throw new Error('Provided coordinate values must be positive integers');
             }
         });
-        if(x1===x2 || y1===y2) throw new Error('Invalid arguments for rectangle, try Line instead.');
+        if(x1>=x2 || y1<=y2) throw new Error('Invalid arguments for rectangle');
         this.x1 = x1;
         this.x2 = x2;
         this.y1 = y1;
@@ -13,7 +13,7 @@ export default class Rectangle {
     }
 
     renderAt(x, y) {
-        if ((x >= this.x1 && x <= this.x2 && (y === this.y1 || y === this.y2)) || (y >= this.y1 && y <= this.y2 && (x === this.x1 || x === this.x2)))
+        if ((x >= this.x1 && x <= this.x2 && (y === this.y1 || y === this.y2)) || (y <= this.y1 && y >= this.y2 && (x === this.x1 || x === this.x2)))
             return 'X';
             
         return null;

@@ -36,8 +36,8 @@ function run() {
                     // console.log('before render');
                     intf.render();
                     // console.log('after render');
-                    io.write('\n');
-                    console.log('Enter Command:')
+                    io.write('\n\nEnter Command: \n');
+                    // console.log('Enter Command:')
                 }
             }
         });
@@ -45,7 +45,7 @@ function run() {
 
     pauseReadline(() => {
         io.write('\n\n Paint Board is online, have fun!\n\n');
-        console.log('Enter Command: ');
+        io.write('Enter command: \n');
     })
 }
 
