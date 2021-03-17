@@ -72,7 +72,7 @@ The program tests are written using Jest. All the tests are written in the `__te
 ```bash
 $ yarn run test (or) yarn test
 ```
-![test](image_url)
+![test](https://github.com/prof-lupin/console-draw/blob/master/screenshots/Screenshot%202021-03-17%20at%208.23.58%20AM.png)
 
 ### Assumptions
 
