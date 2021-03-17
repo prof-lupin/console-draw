@@ -70,8 +70,9 @@ $ node index.js
 The program tests are written using Jest. All the tests are written in the `__tests__` folder in the root of the project.
 
 ```bash
-$ yarn run test
+$ yarn run test (or) yarn test
 ```
+![test](image_url)
 
 ### Assumptions
 
@@ -79,3 +80,10 @@ $ yarn run test
 - Drawing a new canvas resets the layout.
 - Most recently drawn shapes will be overlaid over the previous ones.
 - Shapes cannot go out of bounds of the canvas.
+- Any command starting with `Q` will terminate the program.
+- The origin is located at the upper left corner of the canvas.
+
+### Notes
+
+- The codebase follows Airbnb's JavaScript Style Guide
+- The tests and code consistency requirements were first committed in their respective branches.
