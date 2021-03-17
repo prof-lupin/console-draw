@@ -1,5 +1,6 @@
 export default class QuitCommand {
-    execute = () => {
-        process.exit();
-    }
+  /* eslint-disable class-methods-use-this */
+  execute() {
+    process.exit();
+  }
 }
