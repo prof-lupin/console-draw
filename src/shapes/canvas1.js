@@ -1,8 +1,8 @@
 export default class Canvas {
   constructor(w, h) {
     [w, h].forEach((arrElem) => {
-      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem < 0) {
-        throw new Error('(w,h) must be positive integers');
+      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem <= 0) {
+        throw new Error('(w,h) must be positive non-zero integers');
       }
     });
     this.height = h + 2;

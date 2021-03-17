@@ -10,7 +10,7 @@ function run() {
     input: process.stdin,
     output: process.stdout,
   });
-  let intf = new ConsoleInterface(io);
+  let intfc = new ConsoleInterface(io);
 
   const pauseReadline = (func) => {
     pauseInput = true;
@@ -32,12 +32,11 @@ function run() {
       if (commandType) {
         const shape = commandType.execute();
         if (shape.renderAt) {
-          intf = intf.addShape(shape);
+          intfc = intfc.addShape(shape);
           // console.log('before render');
-          intf.render();
+          intfc.render();
           // console.log('after render');
           io.write('\n\nEnter Command: \n');
-          // console.log('Enter Command:')
         }
       }
     });

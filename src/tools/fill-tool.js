@@ -33,8 +33,8 @@ function fillSpace(pixels, x, y, currColor, targetColor) {
 export default class Fill {
   constructor(x, y, c) {
     [x, y].forEach((arrElem) => {
-      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem < 0) {
-        throw new Error('(x, y) must be positive integers');
+      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem <= 0) {
+        throw new Error('(x, y) must be positive non-zero integers');
       }
     });
     if (c.length !== 1) {

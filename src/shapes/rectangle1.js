@@ -1,8 +1,8 @@
 export default class Rectangle {
   constructor(x1, y1, x2, y2) {
     [x1, y1, x2, y2].forEach((arrElem) => {
-      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem < 0) {
-        throw new Error('Provided coordinate values must be positive integers');
+      if (typeof (arrElem) !== 'number' || Number.isNaN(arrElem) || arrElem <= 0) {
+        throw new Error('Provided coordinate values must be positive non-zero integers');
       }
     });
     if (x1 >= x2 || y1 >= y2) throw new Error('Invalid arguments for rectangle');
