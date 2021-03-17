@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  ignorePatterns: ['node_modules/*', 'screenshots/*'],
+  ignorePatterns: ['node_modules/*', 'screenshots/*', 'yarn*', 'readme.md', 'package.json'],
   rules: {
     'linebreak-style': 0,
     'import/extensions': ['error', 'always', {
